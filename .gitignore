@@ -1,0 +1,16 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# 環境変数
+.env
+.env.*
+
+# VSCode, macOS
+.vscode/
+.DS_Store
+
+# static, media がビルド出力なら除外
+# collectstatic 後の出力先を指定している場合はここで除外
+staticfiles/
